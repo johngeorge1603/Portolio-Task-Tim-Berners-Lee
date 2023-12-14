@@ -1,0 +1,356 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+h1 {
+    font-size: 150px;
+    font-weight:lighter;
+    color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+.main h2 {
+    font-size: 90px;
+    font-weight:lighter;
+    color: white;
+    padding: 130px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://www.rappler.com/tachyon/2021/07/2021-06-30-AUCTION-NFT-WWW-CODE.jpg?resize=1920%2C1280&zoom=1);
+    background-size: cover;
+    background-position: center;
+}
+
+/*NAV*/
+
+nav {
+    margin-top: -60px ;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position:sticky;
+    top: 0px;
+    background-color: rgb(45, 48, 69);
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 19px;
+    
+}
+
+
+/* ABOUT */
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.ab-c {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ab-box1 {
+    width: 320px;
+    display: flex;
+    background: linear-gradient(to right, whitesmoke, rgb(100, 126, 129));
+    background-size: 200% 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.ab-box1 h3 {
+    width: 250px;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.ab-box1 p {
+    padding: 20px;
+    width: 500px;
+    color: white;
+}
+
+.ab-box1:hover {
+    width: 850px;
+    z-index: 1; /* Use an integer value for z-index, not a decimal */
+    background: linear-gradient(to right, whitesmoke, rgb(100, 126, 129));
+    background-position: 100% 0;
+    color: black;
+    transition-duration: 0.3s;
+}
+.ab-box1:hover p {
+    color: whitesmoke;
+}
+
+.ab-box2 {
+    width: 320px;
+    display: flex;
+    background: linear-gradient(to right, whitesmoke, rgb(100, 126, 129));
+    background-size: 200% 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 180px;
+}
+.ab-box2:hover {
+    width: 850px;
+    z-index: 1; /* Use an integer value for z-index, not a decimal */
+    background: linear-gradient(to right, whitesmoke, rgb(100, 126, 129));
+    background-position: 100% 0;
+    color: black;
+    transition-duration: 0.5s;
+}
+.ab-box2:hover p {
+    color: whitesmoke;
+}
+
+.ab-box2 h3 {
+    font-size: 40px;
+    padding: 30px;
+    width: 250px;
+    margin-top: 90px;
+}
+
+.ab-box2 p {
+    padding: 20px;
+    width: 500px;
+    color: white;
+    text-align: justify;
+}
+
+
+.ab-c img {
+    z-index: 0; /* Keep the image at the default z-index */
+    text-align: center;
+}
+
+
+
+.ab-box3 {
+    width: 320px;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(to right, rgb(163, 180, 183), whitesmoke);
+    background-size: 100% 50%;
+    z-index: 0;
+    position: absolute;
+    right: 0; /* Align to the right */
+    transition: width 0.3s, background-position 0.3s;
+    overflow: hidden;
+}
+
+.ab-box3 h3 {
+    width: 250px;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.ab-box3 p {
+    padding: 20px;
+    width: 500px;
+    color: whitesmoke;
+}
+
+#ab-about {
+    overflow: hidden;
+}
+
+#ab-about:hover .ab-box3 {
+    width: 850px;
+    background-position: 0 0;
+    color: black;
+}
+
+.ab-box3:hover p {
+    color: darkslategrey;
+}
+
+
+
+#ab-about-2 {
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.ab-box5 {
+    width: 320px;
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(to right, rgb(163, 180, 183), whitesmoke);
+    background-size: 100% 50%;
+    z-index: 0;
+    position: absolute;
+    right: 0; /* Align to the right */
+    transition: width 0.3s, background-position 0.3s;
+    overflow: hidden;
+}
+
+.ab-box5 h3 {
+    width: 250px;
+    font-size: 40px;
+    padding: 30px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.ab-box5 p {
+    padding: 20px;
+    width: 500px;
+    color: black;
+}
+
+.ab-box5 h4 {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 500px;
+    color: darkslategrey;
+}
+
+
+#ab-about-2:hover .ab-box5 {
+    width: 850px;
+    background-position: 0 0;
+    color: black;
+}
+
+.ab-box5:hover p {
+    color: darkslategrey;
+}
+
+
+/* INNOVATIONS */
+
+.in-head {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(to right, whitesmoke, rgb(45, 48, 69), whitesmoke);
+}
+.in-head h2 {
+font-size: 50px;
+font-weight: 200;
+color: whitesmoke;
+}
+
+.in-content {
+    display: flex;
+}
+
+.in-video {
+    margin: 20px;
+}
+
+
+
+/* AWARDS */
+
+#awards {
+    z-index: 0;
+}
+.s-row {
+    display: flex;
+    height: 200px;
+}
+.s-row:hover {
+    height: 400px;
+    transition-duration: 1s;
+}
+
+.s-box {
+    width: 300px;
+    height: 175px;
+    margin: 25px;
+    background: linear-gradient(to top, rgb(84, 87, 105) 50%, rgb(45, 48, 69) 50%);
+    background-size: 100% 200%;
+    color: rgb(248, 242, 236);
+    padding: 5px;
+}
+
+.s-box:hover {
+    background-position: bottom;
+    color: black;
+    height: 400px;
+    transition-duration: .5s;
+    
+}
+
+.s-box:hover p {
+    font-weight: 100;
+    opacity: 1;
+    color: white;
+}
+
+.s-box img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    border: 1px gray solid;
+}
+
+.s-box h4 {
+    color: whitesmoke;
+    font-weight: 300;
+    text-align: center;
+}
+
+.s-box p {
+    text-align: justify;
+    padding: 5px;
+    color: whitesmoke;
+    opacity: 0;
+}
+
+form {
+    width: 500px;
+    margin-left: 350px;
+}
+
+.input {
+    width: 100%;
+    margin: 10px;
+}
+
+button {
+    height: 30PX;
+    color: white;
+    background-color: rgb(84, 87, 105);
+    border: none;
+    border-radius: 15px;
+}
+button:hover {
+    background-color: rgb(114, 116, 126);
+    cursor: pointer;
+}
+
+#contact {
+    z-index: 1;
+}
