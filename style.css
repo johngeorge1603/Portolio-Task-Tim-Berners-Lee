@@ -107,7 +107,7 @@ nav ul li a {
     transition-duration: 0.3s;
 }
 .ab-box1:hover p {
-    color: whitesmoke;
+    color: darkslategrey;
 }
 
 .ab-box2 {
@@ -128,7 +128,7 @@ nav ul li a {
     transition-duration: 0.5s;
 }
 .ab-box2:hover p {
-    color: whitesmoke;
+    color: darkslategrey;
 }
 
 .ab-box2 h3 {
